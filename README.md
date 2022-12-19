@@ -99,7 +99,7 @@ services:
 ```bash
 docker run -d \
   --name=libreoffice \
-  --security-opt seccomp=unconfined `#optional` \
+  --security-opt seccomp=unconfined \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Europe/London \
